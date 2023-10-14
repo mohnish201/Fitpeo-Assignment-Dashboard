@@ -23,14 +23,14 @@ const Sidebar = () => {
       <div
         className={`${
           isOpen ? "w-56" : "w-0"
-        }  min-h-screen text-white bg-violet-900 border-r border-t overflow-hidden transition-width duration-500`}
+        }  min-h-screen text-white bg-violet-900  overflow-hidden transition-width duration-500`}
       >
         <div className="flex justify-end fixed">
           <buthrefn onClick={toggleSidebar} className="flex cursor-pointer ">
             {/* <GiHamburgerMenu fontSize={"30px"}/> */}
           </buthrefn>
         </div>
-        <div className="p-1 border h-[100%] flex flex-col justify-between">
+        <div className="p-1  h-[100%] flex flex-col justify-between">
           <div>
             <h1 className="flex items-center space-x-2 text-[20px] font-medium ml-5 mt-2 mb-4">
               {" "}

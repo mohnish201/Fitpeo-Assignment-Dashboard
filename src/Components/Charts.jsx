@@ -66,7 +66,20 @@ const Charts = () => {
       {
         label: "Earning",
         data: [20, 30, 40, 45, 50, 50, 60, 41, 55, 54, 56, 20],
-        backgroundColor: "#362FD9",
+        backgroundColor: [
+          "#F5E9FF",
+          "#F5E9FF",
+          "#F5E9FF",
+          "#F5E9FF",
+          "#F5E9FF",
+          "#F5E9FF",
+          "#F5E9FF",
+          "#F5E9FF",
+          "#F5E9FF",
+          "#6528F7",
+          "#F5E9FF",
+          "#F5E9FF",
+        ],
         borderRadius: {
           topLeft: 10,
           topRight: 10,
@@ -78,30 +91,20 @@ const Charts = () => {
   };
 
   const DoughnutData = {
-    labels: ["Red","Green", "Purple", ],
+    labels: ["Red", "Green", "Purple"],
     datasets: [
       {
-        label: "# of Votes",
+        label: "# of reviews",
         data: [12, 3, 19],
         backgroundColor: [
-          "rgba(255, 99, 132, 0.2)",
-          "rgba(54, 162, 235, 0.2)",
-          "rgba(255, 206, 86, 0.2)",
-          "rgba(75, 192, 192, 0.2)",
-          "rgba(153, 102, 255, 0.2)",
-          "rgba(255, 159, 64, 0.2)",
-        ],
-        backgroundColor: [
           "rgba(255, 99, 132, 1)",
-
           "rgba(75, 192, 192, 1)",
           "rgba(153, 102, 255, 1)",
         ],
-        borderWidth: 15
+        borderWidth: 15,
       },
     ],
   };
-
 
   return (
     <div className="flex justify-between gap-4  flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row">
@@ -116,7 +119,6 @@ const Charts = () => {
             options={options}
             data={Bardata}
             style={{ backgroundColor: "white" }}
-       
             redraw={true}
           />
         </div>
