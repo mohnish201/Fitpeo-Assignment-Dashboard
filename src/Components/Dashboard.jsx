@@ -39,7 +39,7 @@ const Dashboard = () => {
 
       {/* Dashboard */}
 
-      <div id="dashboard" className="w-[100%] border border-black overflow-scroll">
+      <div id="dashboard" className="w-[100%] h-[100vh] overflow-scroll" >
         <div
           id="header"
           className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-between items-center w-[90%] m-auto mt-5"
