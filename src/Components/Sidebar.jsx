@@ -18,7 +18,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="hidden sm:hidden md:hidden lg:flex xl:flex h-screen text-md relative">
+    <div className="hidden sm:hidden md:hidden lg:flex xl:flex h-full text-md">
          <div
         className={`${
           isOpen ? "w-56" : "w-0"
