@@ -23,7 +23,7 @@ const Sidebar = () => {
       <div
         className={`${
           isOpen ? "w-56" : "w-0"
-        }  min-h-screen text-white bg-violet-900  overflow-hidden transition-width duration-500`}
+        }  min-h-screen text-white bg-[#071952]  overflow-hidden transition-width duration-500`}
       >
         <div className="flex justify-end fixed">
           <buthrefn onClick={toggleSidebar} className="flex cursor-pointer ">

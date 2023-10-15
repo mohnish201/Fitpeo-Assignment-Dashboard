@@ -26,7 +26,7 @@ const ProductsTable = () => {
 
         <div className="flex items-center gap-5">
           <InputGroup>
-            <InputLeftElement pointerEvents="none">
+            <InputLeftElement pointerEvents="none" h="35px">
               <FiSearch color="gray.300" />
             </InputLeftElement>
             <Input

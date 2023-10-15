@@ -42,7 +42,6 @@ const Charts = () => {
         beginAtZero: true,
       },
     },
-    responsive: true,
   };
 
   const labels = [
@@ -67,18 +66,18 @@ const Charts = () => {
         label: "Earning",
         data: [20, 30, 40, 45, 50, 50, 60, 41, 55, 54, 56, 20],
         backgroundColor: [
-          "#F5E9FF",
-          "#F5E9FF",
-          "#F5E9FF",
-          "#F5E9FF",
-          "#F5E9FF",
-          "#F5E9FF",
-          "#F5E9FF",
-          "#F5E9FF",
-          "#F5E9FF",
+          "rgb(203 213 225)",
+          "rgb(203 213 225)",
+          "rgb(203 213 225)",
+          "rgb(203 213 225)",
+          "rgb(203 213 225)",
+          "rgb(203 213 225)",
+          "rgb(203 213 225)",
+          "rgb(203 213 225)",
+          "rgb(203 213 225)",
           "#6528F7",
-          "#F5E9FF",
-          "#F5E9FF",
+          "rgb(203 213 225)",
+          "rgb(203 213 225)",
         ],
         borderRadius: {
           topLeft: 10,
@@ -95,11 +94,11 @@ const Charts = () => {
     datasets: [
       {
         label: "# of reviews",
-        data: [12, 3, 19],
+        data: [12, 7, 19],
         backgroundColor: [
           "rgba(255, 99, 132, 1)",
           "rgba(75, 192, 192, 1)",
-          "rgba(153, 102, 255, 1)",
+          "#6b22ff",
         ],
         borderWidth: 15,
       },

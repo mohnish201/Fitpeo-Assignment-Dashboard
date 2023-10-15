@@ -32,7 +32,7 @@ const Dashboard = () => {
     };
   }, []);
   return (
-    <div className="flex bg-slate-100 justify-between">
+    <div className="flex bg-slate-200 justify-between">
       <div>
         <Sidebar />
       </div>
@@ -48,8 +48,8 @@ const Dashboard = () => {
 
           <div>
             <InputGroup>
-              <InputLeftElement pointerEvents="none">
-                <FiSearch color="gray.300" />
+              <InputLeftElement h="35px">
+                <FiSearch color="gray.300"/>
               </InputLeftElement>
               <Input
                 type="text"

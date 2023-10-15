@@ -22,7 +22,7 @@ const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <div className="p-3 bg-violet-950 flex justify-between pl-4 pr-4 text-white sm:flex md:flex lg:hidden xl:hidden">
+    <div className="p-3 bg-[#071952] flex justify-between pl-4 pr-4 text-white sm:flex md:flex lg:hidden xl:hidden">
       <GiHamburgerMenu fontSize={"25px"} onClick={onOpen} />
 
       <div className="hidden items-center sm:hidden md:hidden space-x-1 pl-1 h-8 bg-white basis-4 shrink-0 grow-0 rounded-lg ">
@@ -36,7 +36,7 @@ const Navbar = () => {
 
       <Drawer placement="left" onClose={onClose} isOpen={isOpen}>
         <DrawerOverlay />
-        <DrawerContent bgColor={"#27005D"} color="white">
+        <DrawerContent bgColor={"#071952"} color="white">
           <DrawerHeader borderBottomWidth="1px">
             <h1 className="flex items-center space-x-2 text-[20px] font-medium ml-5 mt-2 mb-4">
               {" "}
